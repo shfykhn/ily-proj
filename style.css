@@ -165,3 +165,14 @@ body {
   from { opacity: 0; transform: translateY(40px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+/* === Sorry Text === */
+.sorry-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  color: #ffc1d9;
+  opacity: 0;
+  margin-top: 1.5rem;
+  animation: fadeIn 5s ease-in 6s forwards; /* shows after message appears */
+  text-shadow: 0 0 12px rgba(255, 182, 193, 0.6);
+}
